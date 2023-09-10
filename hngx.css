@@ -1,0 +1,72 @@
+* {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+#hero {
+    color: white;
+    text-align: center;
+}
+
+#hero h2{
+    color: darkgreen;
+}
+
+#hero .pro-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#hero .slackDisplayImage{
+    background-color: green;
+    text-align: center;
+    width: 40%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: auto;
+    transition: -0.4s ease;
+    position: relative;
+}
+
+#hero .slackDisplayImage img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#hero .slackDisplayImage .slackUserName{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#hero .slackDisplayImage .slackUserName span{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#hero .slackDisplayImage .slackUserName h5{
+    padding-top: 2px;
+    color: white;
+    font-size: 15px;
+}
+
+#hero .slackDisplayImage .slackUserName p{
+    font-size: 18px;
+    color: white;
+}
+
+#hero a{
+    padding-top: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
